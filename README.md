@@ -22,15 +22,6 @@
 Install Node.js **[Link](https://nodejs.org/en/download/)**
 
 Do These Steps in a Terminal Type Enviroment
-- cd Bender
-- npm i
-- node main.js
-
-# ⚡ Commands
-
-Install Node.js **[Link](https://nodejs.org/en/download/)**
-
-Do These Steps in a Terminal Type Enviroment
 
 ```bash
 # Goto Dir
@@ -42,6 +33,8 @@ $ npm i
 # Boot it up
 $ node main.js
 
-
 ```
 
+# 📜 Commands
+
+Coming soon
