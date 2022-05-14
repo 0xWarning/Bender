@@ -3,14 +3,35 @@ module.exports = {
     description: 'Clear messages!',
     category: "tools",
     async execute(message,args, cmd, client, Discord){
-        if(!args[0]) return message.reply('Please enter the amount of messages you want to clear!');
-        if(isNaN(args[0])) return message.reply('Please enter a vaild number');
+        if (message.deletable) {
+            message.delete();
+        }
 
-        if(args[0] > 100) return message.reply('You cannot delet more than 100 messages!');
-        if(args[0] < 1) return message.reply('You must delete at least 1 message!');
+        // Member doesn't have permissions
+        if (!message.member.hasPermission("MANAGE_MESSAGES")) {
+            return message.reply("You Do Not Have Permission !").then(m => m.delete(5000));
+        }
 
-        await message.channel.messages.fetch({limit: args[0]}).then(messages => {
-            message.channel.bulkDelete(messages);
-        });
+        // Check if args[0] is a number
+        if (isNaN(args[0]) || parseInt(args[0]) <= 0) {
+            return message.reply("Please Enter a Number").then(m => m.delete(5000));
+        }
+
+        // Maybe the bot can't delete messages
+        if (!message.guild.me.hasPermission("MANAGE_MESSAGES")) {
+            return message.reply("Error With My Permissions!").then(m => m.delete(5000));
+        }
+
+        let deleteAmount;
+
+        if (parseInt(args[0]) > 100) {
+            deleteAmount = 100;
+        } else {
+            deleteAmount = parseInt(args[0]);
+        }
+
+        message.channel.bulkDelete(deleteAmount, true)
+            .then(deleted => message.channel.send(`Deleted \`${deleted.size}\` Messages.`))
+            .catch(err => message.reply(`Error Has Occurred  ${err}`));
     }
 }
