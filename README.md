@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/0xWarning/Bender/main/image/b1.png">
+  <img width="128" height="128" src="https://raw.githubusercontent.com/0xWarning/Bender/main/image/b1.png">
 </p>
 
 # 🍺 Bender
