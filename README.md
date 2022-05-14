@@ -1,11 +1,11 @@
 <p align="center">
   <img width="248" height="248" src="https://raw.githubusercontent.com/0xWarning/Bender/main/image/b1.png">
 </p>
-
+<p align="center">
 # 🍺 Bender
 
  Just a regular discord bot. I PROMISE!
-
+</p>
 # ⚙️ Configuration
 
 ```json
