@@ -13,21 +13,6 @@ module.exports = (Discord, client) =>{
     const banBot = "[".white +"Bot".cyan + "]".white + " ";
     const banStaff = "[".white +"STAFF".yellow + "]".white + " ";
 
-    console.log(`
-        W                             
-       WWW          
-       WWW          
-      WWWWW         
-W     WWWWW     W   
-WWW   WWWWW   WWW   
- WWW  WWWWW  WWW    
-  WWW  WWW  WWW     
-   WWW WWW WWW      
-     WWWWWWW        
-  WWWW  |  WWWW     
-        |           
-        |
-        `.rainbow);
     console.log(``);
     console.log(`Logged in as ${client.user.tag}!`.yellow);
     console.log(`Bender Started At ${year + ":" + month + ":" + date}!`.rainbow);
