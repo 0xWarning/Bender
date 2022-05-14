@@ -1,7 +1,7 @@
 module.exports = {
     name: "sj",
     aliases: ['simulatejoin', 'simulate-join', 'simjoin'],
-    category: "dev",
+    category: "admin",
     description: "Simulate yourself joining the server again.",
     requiredPermissions: ["ADMINISTRATOR"],
     execute: async (message,args, cmd, client, Discord) => {

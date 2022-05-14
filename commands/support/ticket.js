@@ -1,6 +1,7 @@
 module.exports = {
     name: "ticket",
     aliases: [],
+    category: "support",
     permissions: [],
     description: "open a ticket!",
     async execute(message, args, cmd, client, discord) {

@@ -1,7 +1,7 @@
 module.exports = {
     name: "sl",
     aliases: ['simulateleave', 'simulate-leave', 'simleave'],
-    category: "dev",
+    category: "admin",
     description: "Simulate yourself leaving the server.",
     requiredPermissions: ["ADMINISTRATOR"],
     execute: async (message,args, cmd, client, Discord) => {
