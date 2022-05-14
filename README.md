@@ -42,7 +42,7 @@ $ node main.js
 
 - 🖥️ Detect Cloudflare
 
-`$detectcf example.com
+`$detectcf example.com`
 
 - 🖥️ IP Geolocation
 
