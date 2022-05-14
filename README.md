@@ -40,38 +40,38 @@ $ node main.js
 > Note: The default prefix is '$'
 > This can be changed in the config.json file
 
-- 🖥️ Detect Cloudflare
+- 🖥️ Detect if website is using cloudflare
 
 `$detectcf example.com`
 
-- 🖥️ IP Geolocation
+- 🖥️ Resolve the IP's Geolocation
 
 `$geoip 8.8.8.8`
 
-- 🖥️ Get Headers of website
+- 🖥️ Get the Headers of a website
 
 `$getheaders example.com`
 
-- 🖥️ Host 2 IP
+- 🖥️ Resolve the Host's IP
 
 `$host2ip example.com`
 
-- 🖥️ IP 2 Host
+- 🖥️ Resolve the IP's Host
 
 `$ip2host 8.8.8.8`
 
-- 🖥️ Is Up
+- 🖥️ Check if a website is up
 
 `$isup example.com`
 
-- 🖥️ Port Scanner
+- 🖥️ Scan the most common ports of a IP
 
 `$portscan 8.8.8.8`
 
-- 🖥️ Validate IP
+- 🖥️ See if the IP is actually valid
 
 `$validip 8.8.8.8`
 
-- 🖥️ Website Screenshot
+- 🖥️ Take a screenshot of a website without going there
 
 `$webshot example.com`
