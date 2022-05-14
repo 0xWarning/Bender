@@ -1,7 +1,8 @@
 module.exports = {
     name: "sj",
-    category: "info",
-    description: "Returns latency and API ping",
+    aliases: ['simulatejoin', 'simulate-join', 'simjoin'],
+    category: "dev",
+    description: "Simulate yourself joining the server again.",
     requiredPermissions: ["ADMINISTRATOR"],
     execute: async (message,args, cmd, client, Discord) => {
         const msg = await message.channel.send(`Joining....`);

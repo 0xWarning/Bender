@@ -1,7 +1,8 @@
 module.exports = {
     name: "sl",
-    category: "info",
-    description: "Returns latency and API ping",
+    aliases: ['simulateleave', 'simulate-leave', 'simleave'],
+    category: "dev",
+    description: "Simulate yourself leaving the server.",
     requiredPermissions: ["ADMINISTRATOR"],
     execute: async (message,args, cmd, client, Discord) => {
         const msg = await message.channel.send(`Leaving....`);
