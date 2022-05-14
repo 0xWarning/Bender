@@ -1,5 +1,5 @@
 <p align="center">
-  <img style="border-radius: 50%;" src="https://i.pinimg.com/736x/d4/fc/38/d4fc386b6dd407f8954f73cd742f7a97--d-design-futurama.jpg">
+  <img src="https://mpng.subpng.com/20190311/irf/kisspng-beer-bottle-heineken-sticker-image-5c8621c1bad310.1419420915522943377652.jpg">
 </p>
 
 # 🍺 Bender
