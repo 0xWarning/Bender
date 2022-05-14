@@ -7,11 +7,9 @@
 ```json
 {
     "prefix": "$",
-    "token": "your-bot-token-here",
-    "red": "#b70000",
-    "orange": "#ff6a00",
-    "green": "#00ff26",
-    "purple": "#d604cf"
+    "token": "BotTknHere",
+    "EXEC_ERROR_MSG": "There was an error trying to execute this command!",
+    "START_MSG": "$"
   }
 ```
 
