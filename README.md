@@ -38,7 +38,7 @@ $ node main.js
 # 📜 Commands
 
 > Note: The default prefix is '$'
-> This can be changed in the config.json file
+> | This can be changed in the config.json file
 
 - 🖥️ Detect if website is using cloudflare
 
