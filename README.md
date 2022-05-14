@@ -37,4 +37,41 @@ $ node main.js
 
 # 📜 Commands
 
-Coming soon
+> Note: The default prefix is '$'
+> This can be changed in the config.json file
+
+- 🖥️ Detect Cloudflare
+
+`$detectcf example.com
+
+- 🖥️ IP Geolocation
+
+`$geoip 8.8.8.8`
+
+- 🖥️ Get Headers of website
+
+`$getheaders example.com`
+
+- 🖥️ Host 2 IP
+
+`$host2ip example.com`
+
+- 🖥️ IP 2 Host
+
+`$ip2host 8.8.8.8`
+
+- 🖥️ Is Up
+
+`$isup example.com`
+
+- 🖥️ Port Scanner
+
+`$portscan 8.8.8.8`
+
+- 🖥️ Validate IP
+
+`$validip 8.8.8.8`
+
+- 🖥️ Website Screenshot
+
+`$webshot example.com`
