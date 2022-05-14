@@ -40,6 +40,7 @@ $ node main.js
 > Note: The default prefix is '$'
 > | This can be changed in the config.json file
 
+## 3
 - 🖥️ Detect if website is using cloudflare
 
 `$detectcf example.com`
