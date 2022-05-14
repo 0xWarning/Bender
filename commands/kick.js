@@ -7,9 +7,8 @@ module.exports = {
        if(target){
         const memberTarget = message.guild.members.cache.get(target.id);
         memberTarget.kick();
-        message.channel.send('Uživatel byl vyhozen.');
        }else{
-           message.channel.send('Tento uživatel nejde vyhodit') ;
+           message.channel.send('Meh') ;
        }
    }
 
